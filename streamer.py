@@ -30,6 +30,8 @@ Please select an option:
 5) Disney+
 6) YouTube''')
 
+
+# you'll need to change this if you have chrome elsewhere
 chrome = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
 
 choice = input('> ')
@@ -54,3 +56,4 @@ else:
 # probably add like a while loop or something idk
 # probably make this a gui
 # idk what else
+# make os agnostic? so this is prob done without specifying the browser...
