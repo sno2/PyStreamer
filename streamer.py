@@ -41,7 +41,7 @@ if choice == '1':
 elif choice == '2':
     webbrowser.get(chrome).open('hulu.com')
 elif choice == '3':
-    webbrowser.get(chrome).open('https://www.amazon.com/Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_cs_prime_video')
+    webbrowser.get(chrome).open('https://www.amazon.com/gp/video/storefront')
     # why can't amazon have nice links...
 elif choice == '4':
     webbrowser.get(chrome).open('hbomax.com')
